@@ -1,6 +1,5 @@
 $ ( document ).ready(function() {
 
-    let rekogApiUrl = "https://pel5kzx1ac.execute-api.ap-southeast-1.amazonaws.com/default/Rekognize";
     var rawData = sessionStorage.getItem("faceToDetect");
     //console.log(rawData);
     var array = rawData.split(',');
