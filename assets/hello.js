@@ -1,5 +1,7 @@
 $ ( document ).ready(function() {
 
+    $(".se-pre-con").fadeOut("slow");
+    
     var rawData = sessionStorage.getItem("faceToDetect");
     //console.log(rawData);
     var array = rawData.split(',');
